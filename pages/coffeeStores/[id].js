@@ -86,7 +86,8 @@ useEffect(() => {
         }
       },[data]);
 
-const handleUpVote=async()=>{
+const handleUpVote=async(e)=>{
+    e.preventDefault();
     //set component state 
     setVoteCount(++voteCount)
     //then send server req to update data
@@ -121,7 +122,7 @@ const handleUpVote=async()=>{
                 <p><span className="material-icons">location_on</span>{storeData.location.address}</p>
                 <p><span className="material-icons">navigation</span>{storeData.location.neighborhood || storeData.location.address_extended || storeData.location.region}</p>
                 <p><span className="material-icons">thumb_up_alt</span>{voteCount}</p>
-                <Button color='gold' onClick={handleUpVote} style={{marginLeft: '22px'}}>Vote Up!</Button >
+                <Button color='gold' onClick={(e)=>{handleUpVote(e)}} style={{marginLeft: '22px'}}>Vote Up!</Button >
                 </div>
                 </div>
                 </>

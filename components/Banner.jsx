@@ -7,7 +7,7 @@ const Banner = () => {
         <section className={styles.banner}>
         <div className={styles.textContainer}>
         <h3>fresh <span>coffee</span> in the morning</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat labore, sint cupiditate distinctio tempora reiciendis.</p>
+        <p>Easily get Best Coffee Shops around you with only one click</p>
         <Link href='#locationList' passHref>
         <Button color='gold' animate>
             Get Yours Now

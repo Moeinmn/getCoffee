@@ -2,13 +2,14 @@
     width: 100%;
     height: 100vh;
     background-image: url(../public/home-img.jpeg);
+    image-rendering: -webkit-optimize-contrast;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 50% 50%;
     color: white;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    background-position: 50% 50%;
 }
 
 .banner .textContainer{
