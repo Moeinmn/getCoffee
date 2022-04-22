@@ -1,0 +1,38 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../public/home-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-position: 50% 50%;
+}
+
+.banner .textContainer{
+    width: 50%;
+    padding: 15px;
+}
+.banner h3{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.banner h3 span{
+    color: #d3ad7f ;
+}
+.banner p {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 1.8;
+}
+@media (max-width: 480px ){
+    .banner {
+        background-position: 62% 50%;
+    }
+    .textContainer{
+        width: 90% !important;
+        margin: 0px 5%;
+    }
+}

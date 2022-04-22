@@ -1,0 +1,31 @@
+
+.btn{
+    width: 140px;
+    margin: 5px;
+    display: inline-block;
+    padding: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    transition: all .3s ease-in-out;
+    border: 1px solid #d3ad7f;
+    text-align: center;
+    }
+
+.btnGold{
+    background-color: #d3ad7f;  
+}
+.btnGold:hover{
+    letter-spacing: 2px;
+    width: 170px;
+}
+.btnBlack{
+    background-color: #13131a;
+}
+.btnBlack:hover{
+    background: #d3ad7f;
+}
+.noAnimate:hover{
+    letter-spacing: 0px;
+    width: 140px;
+}
